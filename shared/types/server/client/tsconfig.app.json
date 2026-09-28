@@ -18,9 +18,12 @@
 
     /* Paths */
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
-      "@shared/*": ["../shared/*"]
-    },
+      "@shared/types": ["../../index.ts"],
+      "@shared/*": ["../../*"]
+    }, 
+  
 
     /* Linting */
     "noUnusedLocals": true,
